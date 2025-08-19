@@ -1,4 +1,3 @@
----
 ## Coffee Shop Website (Front-End)
 
 Welcome to the **Coffee Shop Website** repository! This is a front-end project for a fictional coffee shop, developed with a focus on modern web technologies and a responsive design.
@@ -16,6 +15,3 @@ Welcome to the **Coffee Shop Website** repository! This is a front-end project f
 * **Interactive Menu:** A clean, easy-to-navigate menu with descriptions and prices.
 * **Contact Form:** A functional form for customer inquiries.
 * **Photo Gallery:** Showcasing high-quality photos of the coffee shop, products, and atmosphere.
----
-
-
