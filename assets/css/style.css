@@ -1,3 +1,6 @@
+/* Alterando as cores que são variáveis do Bootstrap */
+/* Para sobrepor as mesmas nesse projeto */
+
 .btn{
     --bs-btn-bg: #198754;
     --bs-btn-border-color: #198754;
@@ -6,6 +9,29 @@
     --bs-btn-active-bg: #0C5734;
 }
 
+/* Alterando o tamanho da imagem do logo */
+
 .navbar-brand img {
     width: 50px;
+}
+
+/* Alterando o tamanho do carrossel */
+.carousel-item {
+    height: 300px;
+}
+
+/* Ajustando as imagens */
+.carousel-item img {
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+/* Criando um efeito degradê escuro de baixo para cima, para facilitar a leitura dos textos no carrossel */
+/* o ::before é criado como um filho do .carousel-item, por isso fica visível com o mesmo tamanho do elemento pai */
+.carousel-item::before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(transparent, rgb(31, 31, 31));
 }
