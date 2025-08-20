@@ -1,12 +1,21 @@
 /* Alterando as cores que são variáveis do Bootstrap */
 /* Para sobrepor as mesmas nesse projeto */
 
+:root {
+    --bs-link-color: #198754;
+    --bs-link-hover-color: #0C5734;
+}
+
 .btn{
     --bs-btn-bg: #198754;
     --bs-btn-border-color: #198754;
     --bs-btn-hover-bg: #146C43;
     --bs-btn-hover-border-color: #146C43;
     --bs-btn-active-bg: #0C5734;
+}
+
+section {
+    scroll-margin-top: 6rem;
 }
 
 /* Alterando o tamanho da imagem do logo */
