@@ -2,110 +2,159 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <title>Cafeteria</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <title>Cafeteria</title>
 </head>
 
 <body>
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">
-                <img src="./assets/images/logo.png" alt="Logotipo Cafeteria Coffe CSS">
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Início</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#about">Sobre nós</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#menu">Cardápio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#local">Local</a>
-                    </li>
-                </ul>
-                <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar" />
-                    <button class="btn btn-primary" type="submit">Buscar</button>
-                </form>
-            </div>
-        </div>
-    </nav>
-
-    <!-- Carousel -->
-    <div id="carousel-coffee" class="carousel slide">
-        <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carousel-coffee" data-bs-slide-to="0" class="active"
-                aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carousel-coffee" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carousel-coffee" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="https://images.unsplash.com/photo-1447933601403-0c6688de566e?q=80&w=1361&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                    class="d-block w-100" alt="Grãos de café">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>A melhor experiência gastronômica de café</h5>
-                    <p>Você vai experienciar os melhores cafés do Brasil e do mundo.</p>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <img src="https://images.unsplash.com/photo-1525610553991-2bede1a236e2?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                    class="d-block w-100" alt="Cafeteria recebendo clientes em um ambiente confortável.">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>Um ambiente pensado para você e sua família</h5>
-                    <p>Nosso restaurante foi pensado para te fornecer um ambiente confortável, do jeito que você merece.
-                    </p>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <img src="https://images.unsplash.com/photo-1497935586351-b67a49e012bf?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                    class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>Os melhores grãos</h5>
-                    <p>Trabalhamos com ingredientes selecionados, da melhor qualidade, do jeito que você merece!</p>
-                </div>
-            </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carousel-coffee" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carousel-coffee" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="./assets/images/logo.png" alt="Logotipo Cafeteria Coffe CSS">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Início</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">Sobre nós</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#menu">Cardápio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#local">Local</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar" />
+          <button class="btn btn-primary" type="submit">Buscar</button>
+        </form>
+      </div>
     </div>
+  </nav>
 
-    <!-- Quote -->
-    <figure>
-        <blockquote class="blockquote">
-            <h3 class="fw-lighter text-center fst-italic mt-5">
-                "O amor é um café às oito horas da manhã numa segunda."
-            </h3>
-        </blockquote>
-        <figcaption class="blockquote-footer text-center">
-            Someone famous in <cite title="Source Title">Coffee Shop</cite>
-        </figcaption>
-    </figure>
+  <!-- Carousel -->
+  <div id="carousel-coffee" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carousel-coffee" data-bs-slide-to="0" class="active" aria-current="true"
+        aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carousel-coffee" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carousel-coffee" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img
+          src="https://images.unsplash.com/photo-1447933601403-0c6688de566e?q=80&w=1361&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          class="d-block w-100" alt="Grãos de café">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>A melhor experiência gastronômica de café</h5>
+          <p>Você vai experienciar os melhores cafés do Brasil e do mundo.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img
+          src="https://images.unsplash.com/photo-1525610553991-2bede1a236e2?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          class="d-block w-100" alt="Cafeteria recebendo clientes em um ambiente confortável.">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Um ambiente pensado para você e sua família</h5>
+          <p>Nosso restaurante foi pensado para te fornecer um ambiente confortável, do jeito que você merece.
+          </p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img
+          src="https://images.unsplash.com/photo-1497935586351-b67a49e012bf?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Os melhores grãos</h5>
+          <p>Trabalhamos com ingredientes selecionados, da melhor qualidade, do jeito que você merece!</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carousel-coffee" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carousel-coffee" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
 
+  <!-- Quote -->
+  <figure>
+    <blockquote class="blockquote">
+      <!-- Usando classes Bootstrap para estilizar o componente -->
+      <h3 class="fw-lighter text-center fst-italic mt-5">
+        "O amor é um café às oito horas da manhã numa segunda."
+      </h3>
+    </blockquote>
+    <figcaption class="blockquote-footer text-center">
+      Someone famous in <cite title="Source Title">Coffee Shop</cite>
+    </figcaption>
+  </figure>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
-        crossorigin="anonymous"></script>
+  <!-- About Cards -->
+  <section id="about" class="container mt-5">
+    <div class="row">
+      <div class="col-lg-6 col-md-12">
+        <!-- Card Component -->
+        <div class="card mb-3" style="max-width: 540px;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img
+                src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                class="img-fluid rounded-start" alt="Café Expresso">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Somos apaixonados por café</h5>
+                <h6 class="car-subtitle text-muted mb-3">Acreditamos que o café pode mudar o (seu) mundo</h6>
+                <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis adipisci
+                  aperiam laboriosam praesentium quia amet recusandae tenetur dolorum veniam minima sit, sunt maiores
+                  ipsum rem voluptatibus, perferendis quos quas qui?</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-12">
+        <div class="card mb-3" style="max-width: 540px;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img
+                src="https://images.unsplash.com/photo-1495862433577-132cf20d7902?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                class="img-fluid rounded-start" alt="Café Expresso">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Equipe premium de baristas</h5>
+                <h6 class="car-subtitle text-muted mb-3">Profissionais especializados para levar o melhor café até a sua
+                  mesa</h6>
+                <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis adipisci
+                  aperiam laboriosam praesentium quia amet recusandae tenetur dolorum veniam minima sit, sunt maiores
+                  ipsum rem voluptatibus, perferendis quos quas qui?</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section id="about">
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
