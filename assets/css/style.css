@@ -41,3 +41,7 @@
     height: 300px;
     object-fit: cover;
 }
+
+.modal-body iframe {
+    width: 100%;
+}
